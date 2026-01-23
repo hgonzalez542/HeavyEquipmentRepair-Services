@@ -1,9 +1,15 @@
+import logo from "../assets/Logo-Transparency.png";
+
 export default function Navbar({ darkMode, setDarkMode }) {
   return (
     <header className="sticky top-0 z-50 border-b border-zinc-200 bg-white/80 backdrop-blur dark:border-zinc-800 dark:bg-zinc-950/70">
       <div className="container-max flex h-16 items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="h-9 w-9 rounded-xl bg-zinc-900 dark:bg-white" />
+         <img
+          src={logo}
+          alt="Heavy Equipment Repair & Services Logo"
+          className="h-14 w-14 rounded-xl object-contain"
+        />
           <div className="leading-tight">
             <div className="text-sm font-semibold">Heavy Equipment</div>
             <div className="text-xs text-zinc-500 dark:text-zinc-400">Repair & Services</div>
