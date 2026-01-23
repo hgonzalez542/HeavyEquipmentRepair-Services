@@ -44,7 +44,7 @@ export default function QuoteForm() {
           <div className="mt-6 rounded-3xl border border-zinc-200 bg-white p-6">
             <div className="text-sm font-semibold">Service Area</div>
             <p className="mt-2 text-sm text-zinc-600">
-              Based in Seekonk, MA — serving surrounding areas for truck & equipment repairs.
+              Based in Seekonk, MA — Our shop works with all types of commercial/heavy duty trucks, with our prices that beat the competition. We not only service but we program, install, and diagnose all makes and models.
             </p>
             <div className="mt-4 grid gap-2 text-sm text-zinc-700">
               <div><span className="font-semibold">Primary:</span> 508-954-9397</div>
