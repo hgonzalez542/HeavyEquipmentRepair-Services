@@ -13,8 +13,8 @@ export default function Footer() {
           <div className="font-semibold">Contact</div>
           <div className="mt-2 grid gap-1 text-zinc-700">
             <div>132 Old Fall River Rd, Seekonk, MA 02771</div>
-            <div>508-954-9397</div>
-            <div>401-215-8651</div>
+            <div>(508)-954-9397 ~ (Primary)</div>
+            <div>(401)-215-8651 ~ (Secondary)</div>
           </div>
         </div>
 

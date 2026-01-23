@@ -47,8 +47,8 @@ export default function QuoteForm() {
               Based in Seekonk, MA — Our shop works with all types of commercial/heavy duty trucks, with our prices that beat the competition. We not only service but we program, install, and diagnose all makes and models.
             </p>
             <div className="mt-4 grid gap-2 text-sm text-zinc-700">
-              <div><span className="font-semibold">Primary:</span> 508-954-9397</div>
-              <div><span className="font-semibold">Secondary:</span> 401-215-8651</div>
+              <div><span className="font-semibold">Primary:</span> (508)-954-9397</div>
+              <div><span className="font-semibold">Secondary:</span> (401)-215-8651</div>
               <div><span className="font-semibold">Address:</span> 132 Old Fall River Rd, Seekonk, MA 02771</div>
             </div>
           </div>
