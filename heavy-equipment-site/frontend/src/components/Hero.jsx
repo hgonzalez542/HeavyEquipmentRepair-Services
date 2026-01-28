@@ -3,7 +3,7 @@ export default function Hero() {
     <section className="border-b border-zinc-200">
       <div className="container-max grid gap-10 py-14 md:grid-cols-2 md:items-center md:py-20">
         <div>
-          <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-zinc-200 bg-white px-4 py-2 text-xs font-medium text-zinc-700">
+          <div className="mb-4 inline-flex items-center gap-2 rounded-full border border-zinc-200 bg-white px-4 py-2 text-xs font-medium text-zinc-700 dark:border-zinc-800 dark:bg-zinc-900 dark:text-zinc-300">
             <span className="h-2 w-2 rounded-full bg-emerald-500" />
             Heavy-duty truck & equipment specialists
           </div>
@@ -12,7 +12,7 @@ export default function Hero() {
             Complete Truck & Heavy Equipment Repair
           </h1>
 
-          <p className="mt-4 max-w-xl text-base leading-relaxed text-zinc-600">
+          <p className="mt-4 max-w-xl text-base leading-relaxed text-zinc-600 dark:text-zinc-300">
             Diagnostics, engine work, tires, and construction equipment repairs — built for fleets and owner-operators who need fast, dependable service.
           </p>
 
@@ -33,15 +33,15 @@ export default function Hero() {
 
           <div className="mt-8 grid grid-cols-3 gap-4 text-sm">
             <div className="rounded-2xl border border-zinc-200 p-4">
-              <div className="text-zinc-500">Fast</div>
+              <div className="text-zinc-500 dark:text-zinc-400">Fast</div>
               <div className="mt-1 font-semibold">Turnarounds</div>
             </div>
             <div className="rounded-2xl border border-zinc-200 p-4">
-              <div className="text-zinc-500">Clean</div>
+              <div className="text-zinc-400">Clean</div>
               <div className="mt-1 font-semibold">Workmanship</div>
             </div>
             <div className="rounded-2xl border border-zinc-200 p-4">
-              <div className="text-zinc-500">Trusted</div>
+              <div className="text-zinc-400">Trusted</div>
               <div className="mt-1 font-semibold">By Fleets</div>
             </div>
           </div>
