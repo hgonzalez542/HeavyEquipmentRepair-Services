@@ -1,18 +1,27 @@
+import engineImg from "../assets/services/wrench-engineRepair.jpg";
+import diagnosticsImg from "../assets/services/diagnostics-program.jpg";
+import tireImg from "../assets/services/TireService.jpg";
+import constructionImg from "../assets/services/constructionRepair.jpg";
+
 export const services = [
   {
     title: "Engine Repair",
-    desc: "Diagnostics and repairs for heavy-duty engines to get you back on the road fast."
+    desc: "Complete engine diagnostics, repairs, and performance solutions.",
+    image: engineImg,
   },
   {
     title: "Diagnostics & Programming",
-    desc: "Advanced troubleshooting, parameter updates, and module programming support."
+    desc: "Advanced computer diagnostics, ECU programming, and troubleshooting.",
+    image: diagnosticsImg,
   },
   {
     title: "Tire Services",
-    desc: "Sales, mount/balance, replacements, and road-side support when available."
+    desc: "Tire mounting, balancing, replacement, and sales for heavy-duty vehicles.",
+    image: tireImg,
   },
   {
     title: "Construction Equipment",
-    desc: "Bulldozers, loaders, and heavy machinery maintenance and repairs."
-  }
+    desc: "Repair and servicing for bulldozers, loaders, and heavy machinery.",
+    image: constructionImg,
+  },
 ];

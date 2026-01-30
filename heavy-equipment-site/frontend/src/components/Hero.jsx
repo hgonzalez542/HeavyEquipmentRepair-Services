@@ -1,3 +1,5 @@
+import truckImg from "../assets/truckImage.png";
+
 export default function Hero() {
   return (
     <section className="border-b border-zinc-200">
@@ -48,7 +50,13 @@ export default function Hero() {
         </div>
 
         <div className="relative">
-          <div className="aspect-[4/3] w-full overflow-hidden rounded-3xl border border-zinc-200 bg-gradient-to-br from-zinc-100 to-zinc-200">
+          <div className="relative aspect-[4/3] w-full overflow-hidden rounded-3xl border border-zinc-200 dark:border-zinc-800">
+          <img
+            src={truckImg}
+            alt="Heavy Equipment Repair"
+            className="h-full w-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/10 dark:bg-black/30" />
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_20%,rgba(0,0,0,0.08),transparent_40%),radial-gradient(circle_at_80%_30%,rgba(0,0,0,0.06),transparent_40%)]" />
           </div>
 
