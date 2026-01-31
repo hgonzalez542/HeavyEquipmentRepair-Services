@@ -1,7 +1,7 @@
-import engineImg from "../assets/services/wrench-engineRepair.jpg";
-import diagnosticsImg from "../assets/services/diagnostics-program.jpg";
-import tireImg from "../assets/services/TireService.jpg";
-import constructionImg from "../assets/services/constructionRepair.jpg";
+import engineImg from "../assets/wrenchImg.png";
+import diagnosticsImg from "../assets/programmingImg.png";
+import tireImg from "../assets/tireImg.png";
+import constructionImg from "../assets/constructionImg.png";
 
 export const services = [
   {
